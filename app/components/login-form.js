@@ -1,12 +1,27 @@
 import { action } from '@ember/object';
 import Component from '@glimmer/component';
+import { tracked } from '@glimmer/tracking';
 
 export default class LoginFormComponent extends Component {
+    @tracked
+    userId = '2';
 
-    userId = null;
+    get isDisabled() {
+        return !this.userId;
+    }
 
     loginAsUserWithId(val) {
         console.log('UserId: ', val);
+    }
+
+    /**
+     * 
+     * @param {Event & {target: HTMLSelectElement}} evt 
+     */
+
+    @action
+    onSelectChanged(evt) {
+        this.userId = evt.target.value;
     }
     /**
      * 
