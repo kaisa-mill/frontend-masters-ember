@@ -3,6 +3,8 @@ import Component from '@glimmer/component';
 
 export default class LoginFormComponent extends Component {
 
+    userId = null;
+
     loginAsUserWithId(val) {
         console.log('UserId: ', val);
     }
