@@ -4,7 +4,7 @@ import { tracked } from '@glimmer/tracking';
 
 export default class LoginFormComponent extends Component {
     @tracked
-    userId = '2';
+    userId = null;
 
     get isDisabled() {
         return !this.userId;
