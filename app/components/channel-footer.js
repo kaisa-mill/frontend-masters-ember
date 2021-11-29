@@ -19,5 +19,6 @@ export default class ChannelFooterComponent extends Component {
     async handleSubmit(evt) {
         evt.preventDefault();
         await this.args.sendMessage(this.body);
+        this.body = '';
     }
 }
