@@ -27,7 +27,7 @@ export default class ChatContainerComponent extends Component {
   @action
   async createMessage(body) {
     const {
-      channel: { channelId, teamId },
+      channel: { id: channelId, teamId },
     } = this.args;
     const userId = this.auth.currentUserId;
     const resp = await fetch('/api/messages', {

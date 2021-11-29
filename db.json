@@ -222,7 +222,9 @@
       "channelId": "general",
       "userId": 1,
       "body": "awqwdqwqwdq",
-      "enrichedBody": ["awqwdqwqwdq"],
+      "enrichedBody": [
+        "awqwdqwqwdq"
+      ],
       "createdAt": 1555872270175,
       "id": 14
     },
@@ -569,6 +571,240 @@
       "userId": "1",
       "createdAt": 1556683077121,
       "id": 57
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "woop",
+      "createdAt": 1638196877855,
+      "id": 58
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "woop",
+      "createdAt": 1638196877856,
+      "id": 59
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "wooop",
+      "createdAt": 1638196892700,
+      "id": 60
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "wooop",
+      "createdAt": 1638196892706,
+      "id": 61
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196964300,
+      "id": 62
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196965312,
+      "id": 63
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196965684,
+      "id": 64
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196965856,
+      "id": 65
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196966023,
+      "id": 66
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196966264,
+      "id": 67
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196966456,
+      "id": 68
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196967759,
+      "id": 69
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638196968060,
+      "id": 70
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "sa",
+      "createdAt": 1638196987211,
+      "id": 71
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "sa",
+      "createdAt": 1638196987896,
+      "id": 72
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "sa",
+      "createdAt": 1638196988163,
+      "id": 73
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "sa",
+      "createdAt": 1638196988385,
+      "id": 74
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "woop",
+      "createdAt": 1638197074531,
+      "id": 75
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197085848,
+      "id": 76
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197086887,
+      "id": 77
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197087100,
+      "id": 78
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197092506,
+      "id": 79
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197092698,
+      "id": 80
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197092870,
+      "id": 81
+    },
+    {
+      "teamId": "avengers",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197093042,
+      "id": 82
+    },
+    {
+      "teamId": "angrycat",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197095858,
+      "id": 83
+    },
+    {
+      "teamId": "angrycat",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197096257,
+      "id": 84
+    },
+    {
+      "teamId": "angrycat",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197096454,
+      "id": 85
+    },
+    {
+      "teamId": "angrycat",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197182964,
+      "id": 86
+    },
+    {
+      "teamId": "angrycat",
+      "userId": "1",
+      "body": "w",
+      "createdAt": 1638197184163,
+      "id": 87
+    },
+    {
+      "teamId": "angrycat",
+      "channelId": "dominate",
+      "userId": "1",
+      "body": "woop",
+      "createdAt": 1638197305251,
+      "id": 88
+    },
+    {
+      "teamId": "angrycat",
+      "channelId": "dominate",
+      "userId": "1",
+      "body": "woop",
+      "createdAt": 1638197306464,
+      "id": 89
+    },
+    {
+      "teamId": "angrycat",
+      "channelId": "dominate",
+      "userId": "1",
+      "body": "saaaaaa",
+      "createdAt": 1638197316693,
+      "id": 90
     }
   ]
 }
