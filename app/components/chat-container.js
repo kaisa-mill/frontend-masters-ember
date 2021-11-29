@@ -25,6 +25,20 @@ export default class ChatContainerComponent extends Component {
   }
 
   @action
+  async deleteMessage(messageId) {
+    const resp = await fetch(`/api/messages/${messageId}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    const messageIds = this.messages.map(m => m.id);
+    const idxToDelete = messageIds.indexOf(messageId);
+    this.messages.splice(idxToDelete, 1);
+    this.messages = this.messages;
+  }
+
+  @action
   async createMessage(body) {
     const {
       channel: { id: channelId, teamId },
@@ -33,21 +47,18 @@ export default class ChatContainerComponent extends Component {
     const resp = await fetch('/api/messages', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         teamId,
         channelId,
         userId,
-        body
-      })
+        body,
+      }),
     });
-    if (!resp.ok) throw Error('Could not save chat message')
+    if (!resp.ok) throw Error('Could not save chat message');
     const messageData = await resp.json();
     const user = await (await fetch(`/api/users/${userId}`)).json();
-    this.messages = [
-      ...this.messages,
-      { ...messageData, user }
-    ]
+    this.messages = [...this.messages, { ...messageData, user }];
   }
 }
